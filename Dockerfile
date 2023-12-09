@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update -y
-RUN apt-get install python3-pip
+RUN apt-get install -y python3-pip
 
 RUN pip3 install proselint
 
