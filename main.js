@@ -9,19 +9,19 @@
       duration: 2000,
       origin: 'top',
       distance: '20px',
-    }, 4000)
+    }, 2000)
 
     sr.reveal('#chat1, #chat3 ,#chat5, #chat7', {
       origin: 'top',
-    }, 4000)
+    }, 2000)
 
     sr.reveal('#chat2, #chat4, #chat6', {
       origin: 'bottom',
-    }, 4000)
+    }, 2000)
 
     sr.reveal('#chat1', {
-        delay: 4000,
-    }, 4000)
+        delay: 2000,
+    }, 2000)
 
 
     sr.reveal('h2', {
@@ -41,7 +41,7 @@
     })
 
     sr.reveal('i', {
-      duration: 8000,
+      duration: 3000,
       viewFactor: 0.2,
       rotate: {x: 0, y: 900, z: 0}
     });
